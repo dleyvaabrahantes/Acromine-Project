@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631F9FA8273567AC00FB54BA /* Acromine_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FA7273567AC00FB54BA /* Acromine_ProjectApp.swift */; };
+		631F9FAA273567AC00FB54BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FA9273567AC00FB54BA /* ContentView.swift */; };
+		631F9FAC273567AD00FB54BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631F9FAB273567AD00FB54BA /* Assets.xcassets */; };
+		631F9FAF273567AD00FB54BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631F9FAE273567AD00FB54BA /* Preview Assets.xcassets */; };
+		631F9FB9273567AD00FB54BA /* Acromine_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FB8273567AD00FB54BA /* Acromine_ProjectTests.swift */; };
+		631F9FC3273567AD00FB54BA /* Acromine_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FC2273567AD00FB54BA /* Acromine_ProjectUITests.swift */; };
+		631F9FC5273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FC4273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631F9FB5273567AD00FB54BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631F9F9C273567AC00FB54BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631F9FA3273567AC00FB54BA;
+			remoteInfo = "Acromine Project";
+		};
+		631F9FBF273567AD00FB54BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631F9F9C273567AC00FB54BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631F9FA3273567AC00FB54BA;
+			remoteInfo = "Acromine Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631F9FA4273567AC00FB54BA /* Acromine Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acromine Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631F9FA7273567AC00FB54BA /* Acromine_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acromine_ProjectApp.swift; sourceTree = "<group>"; };
+		631F9FA9273567AC00FB54BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		631F9FAB273567AD00FB54BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631F9FAE273567AD00FB54BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		631F9FB4273567AD00FB54BA /* Acromine ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acromine ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631F9FB8273567AD00FB54BA /* Acromine_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acromine_ProjectTests.swift; sourceTree = "<group>"; };
+		631F9FBE273567AD00FB54BA /* Acromine ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acromine ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631F9FC2273567AD00FB54BA /* Acromine_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acromine_ProjectUITests.swift; sourceTree = "<group>"; };
+		631F9FC4273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acromine_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631F9FA1273567AC00FB54BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631F9FB1273567AD00FB54BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631F9FBB273567AD00FB54BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631F9F9B273567AC00FB54BA = {
+			isa = PBXGroup;
+			children = (
+				631F9FA6273567AC00FB54BA /* Acromine Project */,
+				631F9FB7273567AD00FB54BA /* Acromine ProjectTests */,
+				631F9FC1273567AD00FB54BA /* Acromine ProjectUITests */,
+				631F9FA5273567AC00FB54BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631F9FA5273567AC00FB54BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631F9FA4273567AC00FB54BA /* Acromine Project.app */,
+				631F9FB4273567AD00FB54BA /* Acromine ProjectTests.xctest */,
+				631F9FBE273567AD00FB54BA /* Acromine ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631F9FA6273567AC00FB54BA /* Acromine Project */ = {
+			isa = PBXGroup;
+			children = (
+				631F9FA7273567AC00FB54BA /* Acromine_ProjectApp.swift */,
+				631F9FA9273567AC00FB54BA /* ContentView.swift */,
+				631F9FAB273567AD00FB54BA /* Assets.xcassets */,
+				631F9FAD273567AD00FB54BA /* Preview Content */,
+			);
+			path = "Acromine Project";
+			sourceTree = "<group>";
+		};
+		631F9FAD273567AD00FB54BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				631F9FAE273567AD00FB54BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		631F9FB7273567AD00FB54BA /* Acromine ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				631F9FB8273567AD00FB54BA /* Acromine_ProjectTests.swift */,
+			);
+			path = "Acromine ProjectTests";
+			sourceTree = "<group>";
+		};
+		631F9FC1273567AD00FB54BA /* Acromine ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				631F9FC2273567AD00FB54BA /* Acromine_ProjectUITests.swift */,
+				631F9FC4273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "Acromine ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631F9FA3273567AC00FB54BA /* Acromine Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631F9FC8273567AD00FB54BA /* Build configuration list for PBXNativeTarget "Acromine Project" */;
+			buildPhases = (
+				631F9FA0273567AC00FB54BA /* Sources */,
+				631F9FA1273567AC00FB54BA /* Frameworks */,
+				631F9FA2273567AC00FB54BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acromine Project";
+			productName = "Acromine Project";
+			productReference = 631F9FA4273567AC00FB54BA /* Acromine Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631F9FB3273567AD00FB54BA /* Acromine ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631F9FCB273567AD00FB54BA /* Build configuration list for PBXNativeTarget "Acromine ProjectTests" */;
+			buildPhases = (
+				631F9FB0273567AD00FB54BA /* Sources */,
+				631F9FB1273567AD00FB54BA /* Frameworks */,
+				631F9FB2273567AD00FB54BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631F9FB6273567AD00FB54BA /* PBXTargetDependency */,
+			);
+			name = "Acromine ProjectTests";
+			productName = "Acromine ProjectTests";
+			productReference = 631F9FB4273567AD00FB54BA /* Acromine ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		631F9FBD273567AD00FB54BA /* Acromine ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631F9FCE273567AD00FB54BA /* Build configuration list for PBXNativeTarget "Acromine ProjectUITests" */;
+			buildPhases = (
+				631F9FBA273567AD00FB54BA /* Sources */,
+				631F9FBB273567AD00FB54BA /* Frameworks */,
+				631F9FBC273567AD00FB54BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631F9FC0273567AD00FB54BA /* PBXTargetDependency */,
+			);
+			name = "Acromine ProjectUITests";
+			productName = "Acromine ProjectUITests";
+			productReference = 631F9FBE273567AD00FB54BA /* Acromine ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631F9F9C273567AC00FB54BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					631F9FA3273567AC00FB54BA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					631F9FB3273567AD00FB54BA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 631F9FA3273567AC00FB54BA;
+					};
+					631F9FBD273567AD00FB54BA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 631F9FA3273567AC00FB54BA;
+					};
+				};
+			};
+			buildConfigurationList = 631F9F9F273567AC00FB54BA /* Build configuration list for PBXProject "Acromine Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631F9F9B273567AC00FB54BA;
+			productRefGroup = 631F9FA5273567AC00FB54BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631F9FA3273567AC00FB54BA /* Acromine Project */,
+				631F9FB3273567AD00FB54BA /* Acromine ProjectTests */,
+				631F9FBD273567AD00FB54BA /* Acromine ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631F9FA2273567AC00FB54BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631F9FAF273567AD00FB54BA /* Preview Assets.xcassets in Resources */,
+				631F9FAC273567AD00FB54BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631F9FB2273567AD00FB54BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631F9FBC273567AD00FB54BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631F9FA0273567AC00FB54BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631F9FAA273567AC00FB54BA /* ContentView.swift in Sources */,
+				631F9FA8273567AC00FB54BA /* Acromine_ProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631F9FB0273567AD00FB54BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631F9FB9273567AD00FB54BA /* Acromine_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631F9FBA273567AD00FB54BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631F9FC5273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift in Sources */,
+				631F9FC3273567AD00FB54BA /* Acromine_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631F9FB6273567AD00FB54BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631F9FA3273567AC00FB54BA /* Acromine Project */;
+			targetProxy = 631F9FB5273567AD00FB54BA /* PBXContainerItemProxy */;
+		};
+		631F9FC0273567AD00FB54BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631F9FA3273567AC00FB54BA /* Acromine Project */;
+			targetProxy = 631F9FBF273567AD00FB54BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		631F9FC6273567AD00FB54BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		631F9FC7273567AD00FB54BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631F9FC9273567AD00FB54BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Acromine Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 27XRUKL844;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appdev.Acromine-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		631F9FCA273567AD00FB54BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Acromine Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 27XRUKL844;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appdev.Acromine-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		631F9FCC273567AD00FB54BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27XRUKL844;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appdev.Acromine-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acromine Project.app/Acromine Project";
+			};
+			name = Debug;
+		};
+		631F9FCD273567AD00FB54BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27XRUKL844;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appdev.Acromine-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acromine Project.app/Acromine Project";
+			};
+			name = Release;
+		};
+		631F9FCF273567AD00FB54BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27XRUKL844;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appdev.Acromine-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Acromine Project";
+			};
+			name = Debug;
+		};
+		631F9FD0273567AD00FB54BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27XRUKL844;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appdev.Acromine-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Acromine Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631F9F9F273567AC00FB54BA /* Build configuration list for PBXProject "Acromine Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631F9FC6273567AD00FB54BA /* Debug */,
+				631F9FC7273567AD00FB54BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631F9FC8273567AD00FB54BA /* Build configuration list for PBXNativeTarget "Acromine Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631F9FC9273567AD00FB54BA /* Debug */,
+				631F9FCA273567AD00FB54BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631F9FCB273567AD00FB54BA /* Build configuration list for PBXNativeTarget "Acromine ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631F9FCC273567AD00FB54BA /* Debug */,
+				631F9FCD273567AD00FB54BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631F9FCE273567AD00FB54BA /* Build configuration list for PBXNativeTarget "Acromine ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631F9FCF273567AD00FB54BA /* Debug */,
+				631F9FD0273567AD00FB54BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631F9F9C273567AC00FB54BA /* Project object */;
+}
