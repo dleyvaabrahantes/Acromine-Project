@@ -14,6 +14,11 @@
 		631F9FB9273567AD00FB54BA /* Acromine_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FB8273567AD00FB54BA /* Acromine_ProjectTests.swift */; };
 		631F9FC3273567AD00FB54BA /* Acromine_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FC2273567AD00FB54BA /* Acromine_ProjectUITests.swift */; };
 		631F9FC5273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FC4273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift */; };
+		631F9FD5273568B500FB54BA /* Acromine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FD4273568B500FB54BA /* Acromine.swift */; };
+		631F9FD7273568E000FB54BA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FD6273568E000FB54BA /* ViewModel.swift */; };
+		631F9FD927356E4C00FB54BA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FD827356E4C00FB54BA /* Home.swift */; };
+		631F9FDC273575F900FB54BA /* ItemAcronim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FDB273575F900FB54BA /* ItemAcronim.swift */; };
+		631F9FDE2735A84200FB54BA /* DetailAcronim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F9FDD2735A84100FB54BA /* DetailAcronim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,12 @@
 		631F9FBE273567AD00FB54BA /* Acromine ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acromine ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		631F9FC2273567AD00FB54BA /* Acromine_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acromine_ProjectUITests.swift; sourceTree = "<group>"; };
 		631F9FC4273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acromine_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		631F9FD4273568B500FB54BA /* Acromine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acromine.swift; sourceTree = "<group>"; };
+		631F9FD6273568E000FB54BA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		631F9FD827356E4C00FB54BA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		631F9FDA2735714300FB54BA /* Acromine-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Acromine-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
+		631F9FDB273575F900FB54BA /* ItemAcronim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAcronim.swift; sourceTree = "<group>"; };
+		631F9FDD2735A84100FB54BA /* DetailAcronim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAcronim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +105,10 @@
 		631F9FA6273567AC00FB54BA /* Acromine Project */ = {
 			isa = PBXGroup;
 			children = (
+				631F9FDA2735714300FB54BA /* Acromine-Project-Info.plist */,
+				631F9FD32735684900FB54BA /* View */,
+				631F9FD22735684200FB54BA /* ViewModel */,
+				631F9FD12735683D00FB54BA /* Model */,
 				631F9FA7273567AC00FB54BA /* Acromine_ProjectApp.swift */,
 				631F9FA9273567AC00FB54BA /* ContentView.swift */,
 				631F9FAB273567AD00FB54BA /* Assets.xcassets */,
@@ -125,6 +140,32 @@
 				631F9FC4273567AD00FB54BA /* Acromine_ProjectUITestsLaunchTests.swift */,
 			);
 			path = "Acromine ProjectUITests";
+			sourceTree = "<group>";
+		};
+		631F9FD12735683D00FB54BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				631F9FD4273568B500FB54BA /* Acromine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		631F9FD22735684200FB54BA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				631F9FD6273568E000FB54BA /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		631F9FD32735684900FB54BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				631F9FD827356E4C00FB54BA /* Home.swift */,
+				631F9FDB273575F900FB54BA /* ItemAcronim.swift */,
+				631F9FDD2735A84100FB54BA /* DetailAcronim.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631F9FDC273575F900FB54BA /* ItemAcronim.swift in Sources */,
+				631F9FD5273568B500FB54BA /* Acromine.swift in Sources */,
+				631F9FDE2735A84200FB54BA /* DetailAcronim.swift in Sources */,
 				631F9FAA273567AC00FB54BA /* ContentView.swift in Sources */,
+				631F9FD927356E4C00FB54BA /* Home.swift in Sources */,
+				631F9FD7273568E000FB54BA /* ViewModel.swift in Sources */,
 				631F9FA8273567AC00FB54BA /* Acromine_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +468,7 @@
 				DEVELOPMENT_TEAM = 27XRUKL844;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Acromine-Project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +498,7 @@
 				DEVELOPMENT_TEAM = 27XRUKL844;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Acromine-Project-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
