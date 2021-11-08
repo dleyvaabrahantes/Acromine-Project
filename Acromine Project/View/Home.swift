@@ -12,6 +12,7 @@ struct Home: View {
     @State var text: String = ""
     @State var text2: String = ""
     @State private var showFavoriteOnly = false
+    @State var showingAlert = false
     var body: some View {
         NavigationView{
             VStack{
@@ -32,13 +33,28 @@ struct Home: View {
                         }
                         
                     }
+                    
                     Button {
-                        viewModel.requestCode(abre: text, word: text2)
+                        if(text != "" || text2 != "" ){
+                            viewModel.requestCode(abre: text, word: text2)
+                            
+                        }else{
+                            showingAlert = true
+                        }
+                        
                     } label: {
                         Image(systemName: "magnifyingglass")
                             .padding(.horizontal, 10)
                             .frame(height: 40)
                     }
+                    .alert(isPresented: $showingAlert) { // 4
+                        
+                        Alert(
+                            title: Text("Warning"),
+                            message: Text("Please enter abrev to find")
+                        )
+                    }.padding()
+                    
                     
                 }
                 .frame(height: 40)
@@ -73,6 +89,8 @@ struct Home: View {
                 }
                 
             }
+            
+            
             .navigationTitle("Acronim")
             .padding()
         }
